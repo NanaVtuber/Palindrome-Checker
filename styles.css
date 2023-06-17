@@ -1,0 +1,11 @@
+body {
+background-color : rgb(13, 31, 222);
+}
+h1 {
+    text-align : center
+ }
+.palindrome{
+    width : 100%;
+    margin-left : auto;
+    margin-right : auto;
+}
