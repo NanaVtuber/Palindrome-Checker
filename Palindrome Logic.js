@@ -3,7 +3,7 @@ function palindrome() {
   const trimmed = form.toLowerCase().replace(/[^A-Z0-9]/ig, "")
   const reversed = trimmed.split("").reverse().join("");
   const spacecheck = /^\s+$/.test(form)
-  if(spacecheck === true){
+  if(spacecheck === true || form ===""){
     document.body.style.backgroundColor= "rgb(13, 31, 222)";
     return document.getElementById("output").innerHTML = "That is not a word"
   }
